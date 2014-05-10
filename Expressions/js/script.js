@@ -33,3 +33,39 @@ var length = 7;
 var width = 6;
 var perimeter = length * 2 + width * 2;
 console.log(perimeter);
+
+//Expressions - Concatenating Strings
+
+var firstName = "Eddie";
+var lastName = "Rosa";
+var fullName = firstName + " "  + lastName;
+
+console.log(fullName);
+
+
+//Casting
+
+var stringVar = "6";
+var result = 7 + Number(stringVar);
+console.log(result);
+
+//Telephone number (407) 203 - 4529
+
+var areaCode = 407;
+var firstPart = 203;
+var secondPart = 4529;
+
+var phoneNumber = "(" + String(areaCode)+ ")" + String(firstPart) + "-" + String(secondPart);
+
+console.log(phoneNumber);
+
+//Assignment Operators
+
+var c = 3;
+c += 4; //c = c + 4
+c *= 4; // c = c * 4
+c /= 4; //c = c / 4
+c -= 4; // c = c - 4
+c ++; //increment operator
+c --; // decrement operator
+console.log(c);
