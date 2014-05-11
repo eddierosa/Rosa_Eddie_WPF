@@ -1,0 +1,4 @@
+//Prompt and Alert
+
+prompt();
+
