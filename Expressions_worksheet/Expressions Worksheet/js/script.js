@@ -37,4 +37,11 @@ var result3 = "Sparky got " + " " + (sparkysSlices) + " " + "slices of pizza.";
 console.log(result3);
 
 
+//Average Shopping Bill
+
+var groceryTotal = new Array(32.56, 56.86, 79.34, 97.65, 27.54);
+
+var totalAmount = groceryTotal[0] + groceryTotal[1] + groceryTotal[2] + groceryTotal[3] + groceryTotal[4];
+
+console.log(totalAmount);
 
