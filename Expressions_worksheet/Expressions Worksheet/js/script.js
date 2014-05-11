@@ -39,12 +39,25 @@ console.log(result3);
 
 //Average Shopping Bill
 
-var groceryTotal = new Array(32.56, 56.86, 79.34, 97.65, 27.54);
+var groceryTotal = new Array(32.56, 56.86, 79.34, 97.65, 27.54); //Array of groceries done per week
 
-var totalAmount = groceryTotal[0] + groceryTotal[1] + groceryTotal[2] + groceryTotal[3] + groceryTotal[4];
-var weekAverage = totalAmount / 5;
+var totalAmount = groceryTotal[0] + groceryTotal[1] + groceryTotal[2] + groceryTotal[3] + groceryTotal[4]; //Equation to add numbers in array
+var weekAverage = totalAmount / 5; //Equation to get the weekly average
 
 var result4 = "You have spent a total of" + " " + (totalAmount) + " " + "on groceries over 5 weeks." + " " + " That is an average of" + " " + (weekAverage) + " " +  "per week. ";
 
 console.log(result4);
+
+//Discounts
+
+var originalPrice = 50;
+var discountPercent = 5;
+var descriptionOfItem = "Coffee Maker";
+var salesTaxPercent = 6.5;
+
+var discountAmount = (discountPercent / 100)  * originalPrice;
+var amountWithDiscount = originalPrice - discountAmount;
+
+
+console.log(amountWithDiscount);
 
