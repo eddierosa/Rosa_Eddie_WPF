@@ -9,7 +9,7 @@ var perGallon = prompt("Please enter the price of gas per gallon:");
 
 var actualCost = perGallon * amountGas;
 
-var paidAmount = prompt("The amount that you are paying for gas is $ " + actualCost + " for " + amountGas + " gallons of gas that your car can hold." );
+prompt("The amount that you are paying for gas is $" + actualCost + " for " + amountGas + " gallons of gas that your car can hold." );
 
-alert(paidAmount);
+
 
