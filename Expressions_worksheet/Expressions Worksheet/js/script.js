@@ -57,7 +57,11 @@ var salesTaxPercent = 6.5;
 
 var discountAmount = (discountPercent / 100)  * originalPrice;
 var amountWithDiscount = originalPrice - discountAmount;
+var tax = (salesTaxPercent / 100) * amountWithDiscount;
+var withTax = tax + amountWithDiscount;
 
 
-console.log(amountWithDiscount);
+var result5 = "Your" + " " + (descriptionOfItem) + " " + "was orignially $" + (originalPrice) + " " + "but after a" + " " + (discountPercent) + "% " + " discount, it is now" + " $" + (withTax) + " " + "with tax" + " " + "and " + " $" + (amountWithDiscount) + " " + "without tax.";
+
+console.log(result5);
 
