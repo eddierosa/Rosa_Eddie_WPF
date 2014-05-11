@@ -42,6 +42,9 @@ console.log(result3);
 var groceryTotal = new Array(32.56, 56.86, 79.34, 97.65, 27.54);
 
 var totalAmount = groceryTotal[0] + groceryTotal[1] + groceryTotal[2] + groceryTotal[3] + groceryTotal[4];
+var weekAverage = totalAmount / 5;
 
-console.log(totalAmount);
+var result4 = "You have spent a total of" + " " + (totalAmount) + " " + "on groceries over 5 weeks." + " " + " That is an average of" + " " + (weekAverage) + " " +  "per week. ";
+
+console.log(result4);
 
