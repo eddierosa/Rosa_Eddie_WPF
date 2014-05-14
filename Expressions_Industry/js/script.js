@@ -8,7 +8,7 @@ var employeeHours = amountOfEmployees * 40; //total amount of hours employees ar
 
 var employeesNeeded = hourSites / amountOfEmployees; //amount of employees to cover without going over 40 hours
 
-var remainingHours = hourSites - employeeHours; //extra hours that will result in overtime 
+var remainingHours = hourSites - employeeHours; //extra hours that will result in overtime
 
 
 alert("To cover " + amountOfSites + " " + " the shifts with no employee going over 40 hours is " + employeesNeeded);
