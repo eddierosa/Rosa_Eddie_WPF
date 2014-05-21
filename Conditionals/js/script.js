@@ -16,12 +16,19 @@ console.log("What comes after");
 var kidHeight = 50;
 var minHeight = 47;
 var sneakerLift = 2;
+var wParentHeight = 45;
 //if the kid is over 48 inches in height
 if(kidHeight + sneakerLift > minHeight){
-    //code performed if condition is true
+    //you can ride
     console.log("You can ride the coaster!")
 
 }
+else if(kidHeight > wParentHeight){
+    //you can ride with a parent present
+    console.log("You can ride but only with a parent present!");
+}
 else{
-    console.log("Sorry kid you have some growing to do!");
+    //you cant ride
+    console.log("Sorry you have to grow some more!");
+
 }
