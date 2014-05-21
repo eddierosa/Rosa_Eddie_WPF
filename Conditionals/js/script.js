@@ -22,4 +22,6 @@ if(kidHeight + sneakerLift > minHeight){
     console.log("You can ride the coaster!")
 
 }
-
+else{
+    console.log("Sorry kid you have some growing to do!");
+}
